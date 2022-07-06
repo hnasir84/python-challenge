@@ -20,7 +20,7 @@ import csv
 input_file = os.path.join("Resources", "election_data.csv")
 
 # export the analysis report to text file
-output_file = os.path.join ("Resources", "ElectionResults.txt")
+output_file = os.path.join ("Analysis", "ElectionResults.txt")
 
 
 # set variables
