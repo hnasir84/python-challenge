@@ -25,7 +25,7 @@ import csv
 PyBank = os.path.join("Resources", "budget_data.csv")
 
 #specify the file to write to
-Report = os.path.join("Resources", "Analysis_Report.txt")
+Report = os.path.join("Analysis", "Analysis_Report.txt")
 
 # variables
 #Assign a variable called total_month to hold the total number of months with initial value to 0
@@ -149,7 +149,7 @@ import csv
 input_file = os.path.join("Resources", "election_data.csv")
 
 # export the analysis report to text file
-output_file = os.path.join ("Resources", "ElectionResults.txt")
+output_file = os.path.join ("Analysis", "ElectionResults.txt")
 
 
 # set variables
